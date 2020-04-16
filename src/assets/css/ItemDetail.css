@@ -1,0 +1,51 @@
+.itemDetail {
+  margin-left: 150px;
+  background: white;
+  display: inline-block;
+  width: 980px; }
+  .itemDetail .image {
+    display: inline-flex;
+    width: 684px;
+    height: 684px; }
+    .itemDetail .image img {
+      width: 680px;
+      height: 680px; }
+  .itemDetail .descbox {
+    display: inline-block;
+    vertical-align: top;
+    width: 260px;
+    margin-top: 32px; }
+    .itemDetail .descbox .tipobox {
+      margin-top: 32px;
+      font-size: 14px; }
+      .itemDetail .descbox .tipobox .tipo {
+        display: inline-block; }
+      .itemDetail .descbox .tipobox .vendidos {
+        display: inline-block; }
+    .itemDetail .descbox .desc3 {
+      font-size: 24px;
+      font-weight: bold; }
+    .itemDetail .descbox .price {
+      margin-top: 32px;
+      font-size: 46px;
+      margin-bottom: 32px; }
+    .itemDetail .descbox .btn button {
+      height: 32px;
+      border-radius: 3px;
+      background-color: #3486FA;
+      color: white;
+      font-weight: bold;
+      width: 100%; }
+  .itemDetail .bottom {
+    width: 45%;
+    width: 684px;
+    vertical-align: top;
+    margin-left: 32px; }
+    .itemDetail .bottom .titulodesc4 {
+      font-size: 28px; }
+    .itemDetail .bottom .desc4 {
+      margin-top: 32px;
+      font-size: 12px;
+      text-align: left; }
+
+/*# sourceMappingURL=ItemDetail.css.map */

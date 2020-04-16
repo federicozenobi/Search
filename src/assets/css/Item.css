@@ -1,0 +1,40 @@
+.item {
+  margin-left: 150px;
+  background: white;
+  display: inline-block;
+  width: 980px; }
+  .item .image {
+    border-radius: 4px;
+    display: inline-flex;
+    margin-left: 16px;
+    margin-top: 16px;
+    margin-right: 16px; }
+    .item .image .submit {
+      width: 180px;
+      height: 180px; }
+  .item .descbox {
+    width: 580px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    margin-top: 16px; }
+    .item .descbox .price {
+      margin-top: 16px;
+      font-weight: bold;
+      font-size: 24px;
+      margin-bottom: 32px; }
+    .item .descbox .desc {
+      font-size: 18px; }
+      .item .descbox .desc .p {
+        cursor: pointer; }
+    .item .descbox .desc2 {
+      font-size: 18px; }
+  .item .locbox {
+    width: 180px;
+    display: inline-block;
+    margin-top: 16px;
+    vertical-align: top; }
+    .item .locbox .loc {
+      font-size: 12px; }
+
+/*# sourceMappingURL=Item.css.map */
