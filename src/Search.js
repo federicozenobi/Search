@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from 'react'
+import React, { useState} from 'react'
 import './assets/css/Search.css'
 import logo from './assets/img/Logo_ML.png';
 import lupa from './assets/img/ic_Search.png';
@@ -7,7 +7,6 @@ import { useHistory } from 'react-router-dom';
 
 
 function Search (props) {    
-    const [redirect,setRedirect] = useState(false)
     const [query,setQuery] = useState("")        
     const history = useHistory()     
     
@@ -15,13 +14,8 @@ function Search (props) {
         setQuery(e.target.value)                                
         
     }
-    useEffect(() => {                
-        setRedirect(false)        
-      },[])
     
-    const onKeyPress=(e)=>{
-        console.log(query)        
-        console.log(redirect)
+    const onKeyPress=(e)=>{        
         if(e.key === "Enter")
         {             
             history.push("/items?q=" + query)                              
@@ -35,15 +29,9 @@ function Search (props) {
                 <div className="container">
                     <div className="subcontainer">                                                        
                         <img className= "logo" alt="" src={logo}/>                   
-                        <input className="search" placeholder="Nunca dejes de buscar" type="text" onChange={onChange}onKeyPress={onKeyPress}></input>
+                        <input className="search" placeholder="Nunca dejes de buscar"  type="text" onChange={onChange}onKeyPress={onKeyPress}></input>
                         <img className="lupa"  type="image" alt=""  src={lupa} onClick={onClick}></img>                        
-                    </div>                    
-                    {
-                     //   (redirect)?
-                     //       <Redirect  to={{pathname:"/items",search:`?q=:${query}`, state: { query: query }}}/>                                                
-                      //  :""                        
-
-                    }                            
+                    </div>                                        
                 </div>                                                                          
             </React.Fragment>                        
 

@@ -16,24 +16,13 @@ body {
       border: 1px solid blue;
       width: 900px;
       height: 29px;
-      margin-top: 10px; }
-      .container .subcontainer .search input {
-        font-size: 18px; }
+      margin-top: 10px;
+      font-size: 18px; }
     .container .subcontainer .lupa {
       cursor: pointer;
       position: absolute;
       margin-left: -30px;
       margin-top: 15px;
       vertical-align: middle; }
-  .container .categories {
-    display: block;
-    width: 980px;
-    margin-left: 150px;
-    text-align: left;
-    font-size: 14px;
-    color: grey;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    height: 60px; }
 
 /*# sourceMappingURL=Search.css.map */
