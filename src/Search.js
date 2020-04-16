@@ -1,7 +1,7 @@
 import React, { useState,useEffect } from 'react'
 import './assets/css/Search.css'
-import logo from './Logo_ML.png';
-import lupa from './ic_Search.png';
+import logo from './assets/img/Logo_ML.png';
+import lupa from './assets/img/ic_Search.png';
 import { useHistory } from 'react-router-dom';
 
 

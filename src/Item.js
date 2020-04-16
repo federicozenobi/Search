@@ -1,6 +1,6 @@
 import React ,{ useEffect,useState } from 'react';
 import "./assets/css/Item.css";
-import ship from './ic_shipping.png';
+import ship from './assets/img/ic_shipping.png';
 import {Link} from 'react-router-dom'
 
 function Item (props){
