@@ -1,6 +1,7 @@
 import React, { useState,useEffect } from 'react'
 import './assets/css/Search.css'
-//import { Redirect } from 'react-router-dom';
+import logo from './Logo_ML.png';
+import lupa from './ic_Search.png';
 import { useHistory } from 'react-router-dom';
 
 
@@ -33,9 +34,9 @@ function Search (props) {
             <React.Fragment>                                                                                
                 <div className="container">
                     <div className="subcontainer">                                                        
-                        <img className= "logo" alt="" src="./Logo_ML.png"/>                   
+                        <img className= "logo" alt="" src={logo}/>                   
                         <input className="search" placeholder="Nunca dejes de buscar" type="text" onChange={onChange}onKeyPress={onKeyPress}></input>
-                        <img className="lupa"  type="image" alt=""  src="./ic_Search.png" onClick={onClick}></img>                        
+                        <img className="lupa"  type="image" alt=""  src={lupa} onClick={onClick}></img>                        
                     </div>                    
                     {
                      //   (redirect)?

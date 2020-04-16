@@ -2,6 +2,7 @@ import React ,{ useEffect,useState } from 'react';
 import "./assets/css/ItemDetail.css";
 
 
+
 function ItemDetail (props){    
     const [item,setItem] = useState({})
     const [decimalprice,setDecimalPrice] = useState(0)  

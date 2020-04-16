@@ -1,5 +1,6 @@
 import React ,{ useEffect,useState } from 'react';
 import "./assets/css/Item.css";
+import ship from './ic_shipping.png';
 import {Link} from 'react-router-dom'
 
 function Item (props){
@@ -23,7 +24,7 @@ function Item (props){
         })
         const setFreeShipping=()=>{                
             if(props.item.free_shipping)
-                setShipping("ic_shipping.png")                         
+                setShipping(ship)                         
         }
         setDecimal()    
         setCurrency()
